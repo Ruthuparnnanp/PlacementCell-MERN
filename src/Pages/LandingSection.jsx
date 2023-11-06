@@ -40,7 +40,7 @@ function LandingSection() {
 
       <div className="content-overlay">
         <h1 className="lone">Welcome to Your Website</h1>
-        <p className="pone">Explore our amazing features and services</p>
+        <p className="pone mb-5">Explore our amazing features and services</p>
         <GetStartedButton />
       </div>
     </div>
