@@ -40,7 +40,7 @@ function Index() {
 
       {/* <!-- Navbar Start --> */}
 
-      <nav className="bg-white text-blue-400 shadow sticky top-0 p-4">
+      <nav className="bg-white z-40 text-blue-400 shadow sticky top-0 p-4">
         <div className="container mx-auto flex items-center justify-between">
           <a href="index.html" className="flex items-center px-4 lg:px-5">
             <h2 className="m-0 text-primary text-2xl">
@@ -117,87 +117,6 @@ function Index() {
       </nav>
 
       {/* <!-- Navbar End --> */}
-
-      {/* <!-- Carousel Start --> */}
-      {/* <div className="container-fluid p-0 mb-5">
-        <div className="owl-carousel header-carousel position-relative">
-          <div className="owl-carousel-item position-relative">
-            <img className="img-fluid" src={carousel1} alt="img" />
-            <div
-              className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-              style={{ background: "rgba(24, 29, 56, .7)" }}
-            >
-              <div className="container">
-                <div className="row justify-content-start">
-                  <div className="col-sm-10 col-lg-8">
-                    <h5 className="text-primary text-uppercase mb-3 animated slideInDown">
-                      Best Online Courses
-                    </h5>
-                    <h1 className="display-3 text-white animated slideInDown">
-                      The Best Online Learning Platform
-                    </h1>
-                    <p className="fs-5 text-white mb-4 pb-2">
-                      Vero elitr justo clita lorem. Ipsum dolor at sed stet sit
-                      diam no. Kasd rebum ipsum et diam justo clita et kasd
-                      rebum sea sanctus eirmod elitr.
-                    </p>
-                    <a
-                      href=""
-                      className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
-                    >
-                      Read More
-                    </a>
-                    <a
-                      href=""
-                      className="btn btn-light py-md-3 px-md-5 animated slideInRight"
-                    >
-                      Join Now
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="owl-carousel-item position-relative">
-            <img className="img-fluid" src={carousel2} alt="img" />
-            <div
-              className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-              style={{ background: "rgba(24, 29, 56, .7)" }}
-            >
-              <div className="container">
-                <div className="row justify-content-start">
-                  <div className="col-sm-10 col-lg-8">
-                    <h5 className="text-primary text-uppercase mb-3 animated slideInDown">
-                      Best Online Courses
-                    </h5>
-                    <h1 className="display-3 text-white animated slideInDown">
-                      Get Educated Online From Your Home
-                    </h1>
-                    <p className="fs-5 text-white mb-4 pb-2">
-                      Vero elitr justo clita lorem. Ipsum dolor at sed stet sit
-                      diam no. Kasd rebum ipsum et diam justo clita et kasd
-                      rebum sea sanctus eirmod elitr.
-                    </p>
-                    <a
-                      href=""
-                      className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
-                    >
-                      Read More
-                    </a>
-                    <a
-                      href=""
-                      className="btn btn-light py-md-3 px-md-5 animated slideInRight"
-                    >
-                      Join Now
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* <!-- Carousel End --> */}
 
       {/* -----------------------------LandingSection------------------------- */}
       <LandingSection />
@@ -889,7 +808,7 @@ function Index() {
       {/* <!-- Footer End --> */}
 
       {/* <!-- Back to Top --> */}
-      <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top">
+      <a href="#" className="btn  text-blue-500 btn-lg-square back-to-top">
         <i className="bi bi-arrow-up"></i>
       </a>
     </div>
