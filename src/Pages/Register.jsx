@@ -47,7 +47,7 @@ function Register() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex flex-col items-center p-2 justify-center bg-gray-100">
       <div className="bg-white p-8 rounded shadow-lg max-w-md w-full mb-8">
         <div className={`step ${step === 1 ? "block" : "hidden"}`} id="step1">
           <h2 className="text-2xl font-semibold mb-4">Step 1: Upload Image</h2>
